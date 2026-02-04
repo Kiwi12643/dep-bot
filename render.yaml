@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: dep-bot
+    runtime: python
+    python_version: "3.11"
+    build_command: pip install -r requirements.txt
+    start_command: python bot.py
